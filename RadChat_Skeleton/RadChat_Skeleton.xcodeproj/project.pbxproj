@@ -13,6 +13,7 @@
 		14D7E3E61A488E6400FDBA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7E3E51A488E6400FDBA04 /* Images.xcassets */; };
 		14D7E3E91A488E6400FDBA04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D7E3E71A488E6400FDBA04 /* LaunchScreen.xib */; };
 		14D7E3F51A488E6400FDBA04 /* RadChat_SkeletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E3F41A488E6400FDBA04 /* RadChat_SkeletonTests.swift */; };
+		14D7E3FF1A4891CD00FDBA04 /* RCSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7E3FE1A4891CD00FDBA04 /* RCSTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		14D7E3EE1A488E6400FDBA04 /* RadChat_SkeletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadChat_SkeletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D7E3F31A488E6400FDBA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D7E3F41A488E6400FDBA04 /* RadChat_SkeletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadChat_SkeletonTests.swift; sourceTree = "<group>"; };
+		14D7E3FE1A4891CD00FDBA04 /* RCSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCSTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				14D7E3E51A488E6400FDBA04 /* Images.xcassets */,
 				14D7E3E71A488E6400FDBA04 /* LaunchScreen.xib */,
 				14D7E3DC1A488E6300FDBA04 /* Supporting Files */,
+				14D7E3FE1A4891CD00FDBA04 /* RCSTableViewController.swift */,
 			);
 			path = RadChat_Skeleton;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D7E3E11A488E6400FDBA04 /* ViewController.swift in Sources */,
+				14D7E3FF1A4891CD00FDBA04 /* RCSTableViewController.swift in Sources */,
 				14D7E3DF1A488E6400FDBA04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
